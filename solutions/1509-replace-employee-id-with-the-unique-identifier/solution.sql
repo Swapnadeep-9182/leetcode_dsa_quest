@@ -1,5 +1,5 @@
--- Write your PostgreSQL query statement below
-SELECT eu.unique_id, e.name
-FROM Employees e
-LEFT JOIN EmployeeUni eu
-ON e.id = eu.id
+# Write your MySQL query statement below
+select EmployeeUNI.unique_id, Employees.name
+from Employees
+left join EmployeeUNI
+on Employees.id = EmployeeUNI.id;
